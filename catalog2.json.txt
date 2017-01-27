@@ -1,0 +1,44 @@
+{
+	"services": [],
+	"homeCamera": {
+		"north": -8,
+		"east": 158,
+		"south": -45,
+		"west": 109
+	},
+	"corsDomains": ["corsproxy.com",
+	"programs.communications.gov.au",
+	"www.asris.csiro.au",
+	"mapsengine.google.com",
+	"s3-ap-southeast-2.amazonaws.com",
+	"data.melbourne.vic.gov.au",
+	"data.act.gov.au"],
+	"catalog": [
+		{
+			"name": "Number of Negative Gearers per electorate",
+			"type": "csv",
+			"url": "https://raw.githubusercontent.com/alistaircampbell89/upload/master/NegativeGearingByElectorate.csv",
+			"tableStyle": {
+				"dataVariable": "Number of Negative Gearers per electorate",
+				"timeColumn": null,
+				"colorMap": "LightSkyBlue-MidnightBlue",
+				"colorBins": [
+					  3000,
+					  4000,
+					  5000,
+					  6000,
+					  7000,
+					  8000,
+					  9000,
+					  10000,
+					  11000,
+					  12000,
+					  13000,
+					  14000,
+					  15000 
+				]
+			}
+		},
+		],
+	
+}
